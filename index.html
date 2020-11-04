@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flames</title>
+    <!-- Include the style sheet -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="resp_code">
+        <div>
+            <h2> FLAMES By ProGrad</h2>
+        </div>
+        <form name="first">
+            <div class="love" id="maindiv">
+                <div class="group">
+                    <div class="p_name group">
+                        <b>Your Name </b>
+                        <input value='' name=name onkeyup=checnum(this) type="text" id="yname">
+                    </div><br>
+                    <div class="group p_name">
+                        <b> Lover's Name </b>
+                        <input value='' name=name onkeyup=checnum(this) type="text" id="pname"><br>
+                    </div>
+                <div name=n1 id="nam1"></div>
+                <div id="msg"></div>
+            </div>
+
+        <div class="but_por">
+            
+                <input type="button" value="FLAMES" class="buttonMini" onclick="calc()">
+                <input type="reset" value="RESET" class="buttonMini" onclick="clear_all()">
+                <span></span>
+            </div>
+        </div>
+
+   
+            <div id="tablid" class='clearfix'>
+                <div class="group" >
+                    <div class="love_result">
+                        <span id=nam1></span>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+
+
+
+
+</div>
+<!-- include the script here -->
+<script src="./app.js"></script>
+</body>
+</html>
